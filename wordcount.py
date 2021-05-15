@@ -1,6 +1,6 @@
 def wordcount(string):
     if isinstance(string, str):
-        count = 0
+        count = 1
         for i in string:
             if i == " ":
                 count += 1
