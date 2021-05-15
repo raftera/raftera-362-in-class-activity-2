@@ -7,7 +7,6 @@ def user_palindrome():
 
 
 def palindrome(string):
-    #print(string[::-1])
     if string == string[::-1]:
         return 1
     return 0
